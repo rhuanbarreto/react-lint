@@ -8,6 +8,7 @@ RUN yarn global add \
         prettier \
         eslint \
         eslint-config-react-app \
+        react@^16.8.6 \
         typescript@>=2.8.0 \
         @typescript-eslint/eslint-plugin@1.x \
         @typescript-eslint/parser@1.x \
