@@ -6,7 +6,7 @@ WORKDIR /app
 
 RUN yarn global add \
         prettier \
-        eslint \
+        eslint@^5.0.0 \
         eslint-config-react-app \
         react@^16.8.6 \
         typescript@>=2.8.0 \
