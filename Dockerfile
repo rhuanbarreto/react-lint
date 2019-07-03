@@ -1,10 +1,10 @@
-FROM node:10
+FROM node:10-alpine
 
 ENV NODE_ENV production
 
 WORKDIR /app
 
-RUN yarn global add \
+RUN npm i -g \
         prettier \
         eslint@^5.0.0 \
         eslint-config-react-app \
