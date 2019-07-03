@@ -7,14 +7,14 @@ WORKDIR /app
 RUN npm i -g \
         prettier \
         eslint@^5.0.0 \
-        eslint-config-react-app \
         react@^16.8.6 \
+        react-dom@^16.8.6 \
+        react-scripts@3.0.1 \
         typescript@>=2.8.0 \
-        @typescript-eslint/eslint-plugin@1.x \
-        @typescript-eslint/parser@1.x \
-        babel-eslint@10.x \
+        eslint-config-react-app \
+        eslint-plugin-import \
+        eslint-plugin-jsx-a11y \
+        eslint-plugin-react \
         eslint-plugin-flowtype@2.x \
-        eslint-plugin-import@2.x \
-        eslint-plugin-jsx-a11y@6.x \
-        eslint-plugin-react@7.x \
-        eslint-plugin-react-hooks@1.x 
+        babel-eslint \
+        eslint-plugin-react-hooks
