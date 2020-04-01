@@ -12,6 +12,7 @@ RUN npm i -g \
         react-scripts@3.0.1 \
         typescript@>=2.8.0 \
         eslint-config-react-app \
+        eslint-config-prettier \
         eslint-plugin-import \
         eslint-plugin-jsx-a11y \
         eslint-plugin-react \
